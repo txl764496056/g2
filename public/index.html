@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>G2</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but mall doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <!--  拿到中国地图数据 -->
+    <script src="static/index.js"></script>
+    <script>
+      // （1）将中国地图数据存入 本地缓存，f12>application>Storage>Local Storage，找到并复制出来
+      // （2）复制出来后，这个是字符串，可以去线上json转换网页，将它转换为json
+      // 中国地图和省数据，取出之后，只保留省数据
+      localStorage.setItem("geochina",JSON.stringify(ChinaGeoJSON))
+      // 中国地图数据
+      // localStorage.setItem("geochina",JSON.stringify(ChinaGeoJSON['China']))
+      // localStorage.removeItem('geochina');
+    </script>
+  </body>
+</html>
