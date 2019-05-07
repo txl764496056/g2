@@ -22,6 +22,8 @@
       <router-link to='/label'>label文本</router-link>
       <router-link to='/chartevt'>图表事件</router-link>
       <router-link to='/interaction'>图表交互</router-link>
+      <router-link to='/slider'>滑块插件</router-link>
+      <router-link to='/synload'>数据异步加载与动态更新</router-link>
     </div>
     <div class="content">
       <router-view/>

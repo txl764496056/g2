@@ -115,6 +115,16 @@ export default new Router({
       path:'/Interaction',
       name:'interaction',
       component: ()=> import('./views/Interaction.vue')
+    },
+    {
+      path:'/Slider',
+      name:'slider',
+      component: ()=> import('./views/Slider.vue')
+    },
+    {
+      path:'/Synload',
+      name:'synload',
+      component: () => import("./views/Synload.vue")
     }
   ]
 })
