@@ -125,6 +125,16 @@ export default new Router({
       path:'/Synload',
       name:'synload',
       component: () => import("./views/Synload.vue")
+    },
+    {
+      path:'/Shape',
+      name:'shape',
+      component: () => import("./views/Shape.vue")
+    },
+    {
+      path:'/CustomAnimate',
+      name:'customAnimate',
+      component: () => import("./views/CustomAnimate.vue")
     }
   ]
 })
