@@ -26,6 +26,7 @@
       <router-link to='/synload'>数据异步加载与动态更新</router-link>
       <router-link to='/shape'>自定义形状shape</router-link>
       <router-link to='/customAnimate'>自定义动画</router-link>
+      <router-link to='/createview'>创建view</router-link>
     </div>
     <div class="content">
       <router-view/>

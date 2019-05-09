@@ -135,6 +135,11 @@ export default new Router({
       path:'/CustomAnimate',
       name:'customAnimate',
       component: () => import("./views/CustomAnimate.vue")
+    },
+    {
+      path:'/CreateView',
+      name:'createview',
+      component: () => import('./views/CreateView.vue')
     }
   ]
 })
